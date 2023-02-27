@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Dashboard from '../../Screens/Dashboard';
-import Settings from '../../Screens/Settings';
-import ProfileEditScreen from '../../Screens/ProfileEditScreen/screen/ProfileEditScreen';
+import Dashboard from '../../screens/Dashboard';
+
+
 import ScreenNames from '../../Helpers/ScreenNames';
 
 
@@ -23,8 +23,6 @@ const DrawerNavigator = () => {
             }}
             initialRouteName={ScreenNames.Dashboard}>
             <Drawer.Screen name="Dashboard" component={Dashboard} />
-            <Drawer.Screen name="Profile" component={ProfileEditScreen} />
-            <Drawer.Screen name='Settings' component={Settings} />
 
         </Drawer.Navigator>
 

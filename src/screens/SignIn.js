@@ -45,7 +45,7 @@ const SignIn = ({ navigation }) => {
                 }
                 else {
 
-                    navigation.navigate(ScreenNames.Arslan)
+                    navigation.navigate(ScreenNames.Shoper)
                 }
 
             })
